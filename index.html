@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RentEasy - Rentals Made Simple</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+<main>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">RentEasy</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="listings.html">Listings</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li>
+          <a href="#" onclick="downloadAPK()" title="Download App">
+            <i class="fas fa-download download-icon"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Find Anything. Rent Easily.</h1>
+      <p>From homes to cars to tools — RentEasy connects you with everything you need.</p>
+      <button onclick="downloadAPK()" class="hero-download">Download Mobile App</button>
+    </div>
+  </section>
+
+  <!-- Highlights Section -->
+  <section class="listings-section">
+    <h2>Popular Rentals</h2>
+    <div class="listings-container">
+        <div class="listing-card">
+          <img src="images\Appartment_space.jpeg" alt="Apartment" />
+          <h3>Apartment</h3>
+          <p>$25,000/month - Kendal Manchester</p>
+        </div>
+        <div class="listing-card">
+          <img src="images/commertial_space.jpeg" alt="Car" />
+          <h3>Clear View Office Space</h3>
+          <p>$74,000/month - Mandeville Manchester</p>
+        </div>
+        <div class="listing-card">
+          <img src="images\house_space.jpg" alt="Tool" />
+          <h3>3 Bedroom House</h3>
+          <p>$92,000/month - East Side Mandeville</p>
+        </div>
+      </div>
+    </section>
+</main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2025 RentEasy. All rights reserved. | 
+    <a href="contact.html">Contact</a> |
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
